@@ -1,0 +1,44 @@
+.article {
+  max-width: 350px;
+  margin: 30px auto;
+
+  background: rgb(119, 87, 114);
+  box-shadow: 0 25px 25px;
+}
+
+.article-content {
+  padding: 30px;
+}
+
+.article-photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.article-title {
+  margin: 0 0 20px;
+
+  font-size: 35px;
+  line-height: 1.2; /* межстрочный отступ */
+}
+
+.article-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-title a:hover {
+  text-decoration: underline;
+}
+
+.article-text {
+  margin-bottom: 20px;
+}
+
+.article-footer {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #868686;
+}
